@@ -15,7 +15,7 @@ export const AuthProvider = ({children}) => {
 
         setUser(result);
 
-        navigate('/catalog');
+        navigate('/');
     };
 
     const onLogoutHandler = async () => {
@@ -31,7 +31,7 @@ export const AuthProvider = ({children}) => {
 
         setUser(result);
 
-        navigate('/catalog');
+        navigate('/');
     };
 
     const getOneUser = async () => {

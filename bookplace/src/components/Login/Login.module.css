@@ -5,24 +5,26 @@
 }
 
 .login-block {
-    width: 320px;
+    width: 500px;
     height: 350px;
     padding: 20px;
-    background: #0000005e;
+    background: #00000000;
     border-radius: 5px;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 .login-block h1 {
     text-align: center;
-    color: #ffffffcb;
+    color: #00000079;
     font-size: 30px;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 20px;
-    background-color: #00000096;
+    background-color: #00000000;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 .login-block input {
@@ -60,18 +62,14 @@
     margin-top: 30px;
 }
 
-.login-block button:hover {
-    background: #831717;
-}
-
 .error h2 {
     color: red;
     font-size: 15px;
     width: 400px;
     height: auto;
     padding: 20px;
-    background: #0000005e;
+    background: #c4c0c086;
     border-radius: 5px;
-    border-top: 5px solid #831717cb;
+    border: 1px solid #000000cb;
     margin: 10px auto;
 }

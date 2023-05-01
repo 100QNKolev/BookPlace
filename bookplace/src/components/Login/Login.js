@@ -12,8 +12,8 @@ export const Login = () => {
 
     const [formErrors, setFormErrors] = useState([]);
     const { values, changeHandler, onSubmit } = useForm({
-        email: "",
-        password: "",
+        email: '',
+        password: '',
     }, onLoginSubmit);
 
     const loginValidate = async (e) => {
@@ -43,10 +43,10 @@ export const Login = () => {
             )}
             <div className={styles['logo']}></div>
             <div className={styles['login-block']}>
-                <form onSubmit={loginValidate} method="POST" >
+                <form onSubmit={loginValidate} method='POST' >
                     <h1>Login</h1>
-                    <input type="text" placeholder="Email" value={values.email} onChange={changeHandler} name="email" id="email" />
-                    <input type="password" placeholder="Password" value={values.password} onChange={changeHandler} name="password" id="password" />
+                    <input type='text' placeholder='Email' value={values.email} onChange={changeHandler} name='email' id='email' />
+                    <input type='password' placeholder='Password' value={values.password} onChange={changeHandler} name='password' id='password' />
                     <button>Submit</button>
                 </form>
             </div>

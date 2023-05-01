@@ -1,0 +1,75 @@
+.logo {
+    width: 213px;
+    height: 36px;
+    margin: 30px auto;
+}
+
+.register-block {
+    width: 500px;
+    height: 510px;
+    padding: 20px;
+    background: #00000000;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.register-block h1 {
+    text-align: center;
+    color: #00000079;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #00000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.register-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.register-block input:active,
+.register-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.register-block button {
+    width: 100%;
+    height: 40px;
+    background: #000000cb;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.error h2 {
+    color: red;
+    font-size: 15px;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background: #c4c0c086;
+    border-radius: 5px;
+    border: 1px solid #000000cb;
+    margin: 10px auto;
+}
