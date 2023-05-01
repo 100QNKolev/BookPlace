@@ -10,9 +10,11 @@ export const Header = () => {
 
     return (
         <nav>
+            <img src='https://cdn.discordapp.com/attachments/1059861905566605394/1099272652402733096/hadbooks1.png' 
+            className={styles['logo']} alt='background'/>
+
             <ul className={styles['list-item']}>
                 <li> <Link to="/">Home</Link> </li>
-                <li> <Link to="/catalog">Catalog</Link> </li>
                 <li> <Link to="/contact">Contact</Link> </li>
                 <li> <Link to="/about">About</Link> </li>
                 {!isAuthenticated && (
