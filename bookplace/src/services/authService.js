@@ -14,8 +14,8 @@ export const authServiceFactory = (token) => {
         return await request.post(`${baseUrl}/register`, registerData);
     };
 
-    const Logout = async (logoutData) => {
-        return await request.get(`${baseUrl}/logout`, logoutData);
+    const Logout = async () => {
+        return await request.get(`${baseUrl}/logout`);
     };
 
     const getOne = async () => {

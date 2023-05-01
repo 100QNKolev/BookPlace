@@ -7,6 +7,7 @@ import { Header } from './components/Header/Header';
 import { Login } from './components/Login/Login';
 import { Register } from './components/Register/Register';
 import { Home } from './components/Home/Home';
+import { Logout } from './components/Logout/Logout';
 
 import styles from './public/App.module.css';
 
@@ -22,6 +23,7 @@ function App() {
               <Route path='/' element={<Home />} />
               <Route path='/login' element={<Login />} />
               <Route path='/register' element={<Register />} />
+              <Route path='/logout' element={<Logout />} />
             </Routes>
           </main>
 
