@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import { Routes, Route } from 'react-router-dom';
 
 import { AuthProvider } from './contexts/authContext';
@@ -9,9 +11,20 @@ import { Register } from './components/Register/Register';
 import { Home } from './components/Home/Home';
 import { Logout } from './components/Logout/Logout';
 
+import { bookServiceFactory } from './services/bookService';
+
+import data from './public/books.json';
+
 import styles from './public/App.module.css';
 
 function App() {
+
+  const { setBooks } = bookServiceFactory();
+
+  useEffect(() => {
+    setBooks(data);
+  });
+
   return (
     <AuthProvider>
       <BookProvider>

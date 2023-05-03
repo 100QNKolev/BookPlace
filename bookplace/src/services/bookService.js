@@ -25,9 +25,16 @@ export const bookServiceFactory = (token) => {
         return books;
     };
 
+    const setBooks = async (books) => {
+        const result = await request.post(baseUrl, books);
+
+        return result;
+    };
+
     return {
         getAll, 
         getOne,
-        getByName
+        getByName,
+        setBooks
     };
 };
