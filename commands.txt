@@ -1,0 +1,7 @@
+server - 
+cd ./server
+node server.js
+
+website -
+cd./ bookplace
+npm start
